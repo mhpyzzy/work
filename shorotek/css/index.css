@@ -1,0 +1,317 @@
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, span {
+    margin: 0;
+    padding: 0;
+}
+
+dl, dt, dd, ul, ol, li, img {
+    list-style: none;
+}
+
+img {
+    border: none;
+    vertical-align: middle;
+}
+
+input, select, button, textarea {
+    border: none;
+    outline: medium;
+}
+
+a {
+    cursor: pointer
+}
+
+div, ul, li, dl, dt, dd, p, table, tr, td {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'fzyx';
+    src: url('../font/fzyx.eot');
+    src:
+            url('../font/fzyx.eot?#font-spider') format('embedded-opentype'),
+            url('../font/fzyx.woff') format('woff'),
+            url('../font/fzyx.ttf') format('truetype'),
+            url('../font/fzyx.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'fzqh';
+    src: url('../font/fzqh.eot');
+    src:
+            url('../font/fzqh.eot?#font-spider') format('embedded-opentype'),
+            url('../font/fzqh.woff') format('woff'),
+            url('../font/fzqh.ttf') format('truetype'),
+            url('../font/fzqh.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-size: 20px;
+}
+
+body {
+    color: #222;
+    font-size: 0.8rem;
+    font-family: Arial,Microsoft YaHei,sans-serif;
+    overflow-y: scroll;
+}
+
+/*字体*/
+.f14 { font-size: 0.7rem }
+
+.f16 { font-size: 0.8rem }
+
+.f20 {
+    font-size: 1rem
+}
+
+.f30 {
+    font-size: 1.5rem
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+
+.hide {
+    display: none;
+}
+
+/*common end*/
+
+.shorotek{min-width:1100px;}
+.container {
+    margin: 0 auto;
+    width: 55rem;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    height: 4rem;
+    background-color: #202020;
+}
+
+.header .header-l > div {
+    height: 100%;
+    color: #E0E0E0;
+}
+
+.header img {
+    height: 2rem;
+}
+
+.header .logo {
+    padding: 1rem 0 1rem 1.8rem;
+}
+
+.header .title {
+    font-family:'fzyx';
+    padding: 2rem 0 0 1.8rem
+}
+
+.header .title span {
+    padding: 0 1.5rem;
+}
+
+.header .search {
+    position: absolute;
+    right: 5%;
+    width:12%;
+    height: 100%;
+    padding-top: 2rem;
+}
+
+.header .search input {
+    background-color: #202020;
+    border: 3px solid;
+    border-top-color: #000;
+    border-left-color: rgba(0, 0, 0, 0.7);
+    border-right-color: rgba(0, 0, 0, 0.4);
+    border-bottom-color: #2F2F2F;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    border-radius: 1rem;
+    color:#fff;
+    width:75%;
+    text-indent: 5px;
+}
+
+.header .search .iconfont {
+    color: #fff;
+    font-weight: bold;
+}
+
+.body .navbar { position: relative; background-color: #4D4D4D; }
+
+.body .navbar .navbarItem { height: 2rem; padding: 0 5.5rem; color: #fff; }
+
+.body .navbar .navbarItem > li { font-family: 'fzyx'; float: left; width: 25%; height: 100%; line-height: 2rem; text-align: center; cursor: pointer; }
+
+.body .navbar .navbarItem > li:hover { background-color: rgba(0, 0, 0, 0.2); }
+
+.body .navbar .navbarItem > li.active { background-color: rgba(0, 0, 0, 0.5); }
+
+.body .navbar .navbarTab { position: absolute; bottom: -5rem; width: 100%; height: 5rem; background-color: #f6f6f6; z-index: 999 }
+
+.body .navbar .navbarTab tr {
+    height: 100%;
+}
+
+.body .navbar .navbarTab td {
+    cursor: pointer;
+}
+
+.body .navbar .navbarTab td:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.body .navbar .navbarTab td:first-child,
+.body .navbar .navbarTab td:last-child {
+    width: 18rem;
+}
+
+.body .navbar .navbarTab td p {
+    text-align: center
+}
+
+.body .content {
+}
+
+.body .content .home { position: relative; }
+.body .content .home .homeContent{position:relative;}
+
+.body .content .home .homeContent .imgLink {
+    position: absolute;
+    top:21%;
+    left:39%;
+    width:20rem;
+    height:8rem;
+    cursor:pointer;
+}
+.body .content .home img { width: 100%; }
+
+.body .content .home .footer { position: absolute; bottom: 2rem; width: 100%; color: #686967; font-size: 0.7rem; }
+
+.body .content .home .footer ul { width: 100%; padding: 1rem 20%; }
+
+.body .content .home .footer li {font-family:'fzqh'; float: left; width: 20%; text-align: center; }
+
+.body .content .home .footer p {font-size: 0.6rem; width: 100%; text-align: center; color: #929091; padding-bottom: 1rem}
+
+.body .content .home .footer p b { color: red; margin-right: 1rem; font-size: 1rem; }
+.body .content .home .footer p span {font-family: SimHei;font-size: 0.75rem }
+
+.body .content .page1 img {
+    width: 100%;
+}
+
+.body .content .page1 .title {
+    width: 100%;
+    height: 12.75rem;
+    padding: 4rem 0;
+}
+
+.body .content .page1 .title p {
+    text-align: center;
+    padding: 0.6rem 0;
+}
+
+.body .content .page1 .title p:first-child {
+    font-size: 1.5rem;
+    padding-right: 7rem;
+}
+
+.body .content .page1 .title p:last-child {
+    font-size: 1rem;
+}
+
+.body .content .page1 .firstScreen {
+    position: relative
+}
+
+.body .content .page1 .firstScreen .dec {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-left: 66%;
+    color: #696768;
+}
+
+.body .content .page1 .firstScreen .dec p {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+}
+
+.body .content .page1 .container > div:nth-child(1) p {
+    margin: 0 22%;
+    text-align: center;
+}
+
+.body .content .page1 .container > div:nth-child(1) p:first-child {
+    margin: 0 35%;
+    background-color: #3d3d3d;
+    color: #fff;
+    line-height: 1.5;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.body .content .page1 .container > div:nth-child(1) img {
+    width: inherit;
+}
+
+.body .content .page1 .container > div:nth-child(2) {
+    position: relative;
+}
+
+.body .content .page1 .container > div:nth-child(2) > div {
+    position: absolute;
+    bottom: 5rem;
+    right: 9rem;
+}
+
+.body .content .page1 .container > div:nth-child(2) > div p {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.body .content .page1 .container > div:nth-child(2) > div p:last-child {
+    padding-left: 3.5rem;
+}
+
+.body .content .page1 .container > div:nth-child(2) > div p span {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.body .content .page1 .container > div:nth-child(2) > div p b {
+    color: #cc0000;
+}
+
+.body .content .page1 .container > div:nth-child(3) p,
+.body .content .page1 .container > div:nth-child(5) p,
+.body .content .page1 .container > div:nth-child(7) p,
+.body .content .page1 .container > div:nth-child(9) p {
+    text-align: center;
+    font-weight: bold;
+}
